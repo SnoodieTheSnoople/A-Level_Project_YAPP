@@ -1,0 +1,15 @@
+C:\Users\cleef\source\repos\ChatWindow\bin\Release\netcoreapp3.1\ChatWindow.exe
+C:\Users\cleef\source\repos\ChatWindow\bin\Release\netcoreapp3.1\ChatWindow.deps.json
+C:\Users\cleef\source\repos\ChatWindow\bin\Release\netcoreapp3.1\ChatWindow.runtimeconfig.json
+C:\Users\cleef\source\repos\ChatWindow\bin\Release\netcoreapp3.1\ChatWindow.runtimeconfig.dev.json
+C:\Users\cleef\source\repos\ChatWindow\bin\Release\netcoreapp3.1\ChatWindow.dll
+C:\Users\cleef\source\repos\ChatWindow\bin\Release\netcoreapp3.1\ChatWindow.pdb
+C:\Users\cleef\source\repos\ChatWindow\obj\Release\netcoreapp3.1\ChatWindow.csprojAssemblyReference.cache
+C:\Users\cleef\source\repos\ChatWindow\obj\Release\netcoreapp3.1\ChatWindow.Form1.resources
+C:\Users\cleef\source\repos\ChatWindow\obj\Release\netcoreapp3.1\ChatWindow.csproj.GenerateResource.cache
+C:\Users\cleef\source\repos\ChatWindow\obj\Release\netcoreapp3.1\ChatWindow.AssemblyInfoInputs.cache
+C:\Users\cleef\source\repos\ChatWindow\obj\Release\netcoreapp3.1\ChatWindow.AssemblyInfo.cs
+C:\Users\cleef\source\repos\ChatWindow\obj\Release\netcoreapp3.1\ChatWindow.csproj.CoreCompileInputs.cache
+C:\Users\cleef\source\repos\ChatWindow\obj\Release\netcoreapp3.1\ChatWindow.dll
+C:\Users\cleef\source\repos\ChatWindow\obj\Release\netcoreapp3.1\ChatWindow.pdb
+C:\Users\cleef\source\repos\ChatWindow\obj\Release\netcoreapp3.1\ChatWindow.genruntimeconfig.cache
