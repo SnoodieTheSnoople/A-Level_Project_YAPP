@@ -16,6 +16,9 @@ namespace MySQL_LoginForm_PROTOTYPE
 
         /*
          * Create new MySQL user for connecting to the server.
+         * MUST ADD:-
+         * - Update() in case user wants to update password/email
+         * - Delete() to remove account
          */
 
         private MySqlConnection connection;
@@ -32,8 +35,8 @@ namespace MySQL_LoginForm_PROTOTYPE
         private void Initialise()
         {
             server = "localhost";
-            database = "testlogin";
-            uid = "yapp";
+            database = "db";
+            uid = "username";
             password = "password";
             string connectionString = $"SERVER = {server}; DATABASE = {database}; UID = {uid}; PASSWORD = {password};";
 
@@ -80,7 +83,7 @@ namespace MySQL_LoginForm_PROTOTYPE
 
         public bool Insert(string email, string username, string password)
         {
-            string query = $"INSERT INTO logindetails (email, username, password) VALUES (@email, @username, @password);";
+            string query = $"INSERT INTO tablename (email, username, password) VALUES (@email, @username, @password);";
             var cmd = new MySqlCommand(query, connection);
             cmd.Parameters.AddWithValue("@email", email);
             cmd.Parameters.AddWithValue("@username", username);
@@ -110,7 +113,7 @@ namespace MySQL_LoginForm_PROTOTYPE
         //PREVENT USER LOGGING IN WITH SAME EMAIL
         public bool Select(string email, string username, string password)
         {
-            string query = "SELECT email, username, password FROM logindetails WHERE email = @email AND username = @username AND password = @password";
+            string query = "SELECT email, username, password FROM tablename WHERE email = @email AND username = @username AND password = @password";
             var cmd = new MySqlCommand(query, connection);
 
             cmd.Parameters.AddWithValue("@email", email);
