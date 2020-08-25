@@ -19,6 +19,7 @@ namespace MySQL_LoginForm_PROTOTYPE
          * MUST ADD:-
          * - Update() in case user wants to update password/email
          * - Delete() to remove account
+         * - Hashing algorithm for password
          */
 
         private MySqlConnection connection;
