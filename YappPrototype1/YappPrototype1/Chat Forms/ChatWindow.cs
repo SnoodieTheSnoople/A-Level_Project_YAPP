@@ -9,6 +9,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+//using System.Net.Sockets.Shutdown;
 
 namespace YappPrototype1.Chat_Forms
 {
@@ -46,6 +47,7 @@ namespace YappPrototype1.Chat_Forms
                 IP = connect.IP;
                 portNum = connect.port;
                 clientSocket = connect.clientSocket;
+
 
                 readData = $"Connected to server {IP}:{portNum}";
                 ServerMsg();
@@ -111,8 +113,7 @@ namespace YappPrototype1.Chat_Forms
 
         private void Disconnect()
         {
-            serverStream.Close();
-            //clientSocket.GetStream().Close();
+            clientSocket.Client.Disconnect(true);
             clientSocket.Close();
 
             readData = $"Disconnected from server...";
