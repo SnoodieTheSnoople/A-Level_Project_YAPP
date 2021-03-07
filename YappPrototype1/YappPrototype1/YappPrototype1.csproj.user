@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Chat Forms\BookmarksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Chat Forms\ChatWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Chat Forms\ConnectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Chat Forms\AccDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login Forms\CreateAccForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login Forms\Forgot Password\ConfirmAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login Forms\Forgot Password\ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
